@@ -46,7 +46,7 @@ jobs:
         if: steps.check.outputs.need_build == 'true'
         run: |
           # 克隆 chasey-dev 25.12 仓库源码
-          git clone https://github.com/xms363/immortalwrt-mt798x-rebase.git openwrt -b 25.12
+          git clone https://github.com/chasey-dev/immortalwrt-mt798x-rebase.git openwrt -b 25.12
           cd openwrt
           
           # 更新 feeds
